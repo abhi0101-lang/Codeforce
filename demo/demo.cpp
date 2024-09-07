@@ -8,7 +8,7 @@ int main(){
     cin >> n ;
 
     for(int i=0 ;i<n ;i++){
-        if(i%3 ==0 )sum += i ;
+        if(i%210 ==0 )sum += i ;
     }
     cout << sum << endl ;
 }
